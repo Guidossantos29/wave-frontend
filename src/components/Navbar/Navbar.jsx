@@ -6,24 +6,25 @@ import {
   BsFillPersonFill,
   BsFillCameraFill,
 } from "react-icons/bs";
+import { InputNavBar, NavbarContainer, NavLinksContainer, NavLinkstyle, SearchForm } from './style';
 
 
 function Navbar() {
   return (
    
     <Router>
-      <div>
+      <NavbarContainer>
       <NavLink to='/'>Wave</NavLink>
-      <form>
+      <SearchForm>
          <BsSearch/>
-         <input type="text" />
-      </form>
-      <ul>
-        <NavLink to='/' > <BsHouseDoorFill/></NavLink>
-        <NavLink to='/login' >Entrar</NavLink>
-        <NavLink to='/register'>Cadastrarr</NavLink>
-      </ul>
-      </div>
+         <InputNavBar placeholder='' type="text" />
+      </SearchForm>
+      <NavLinksContainer>
+        <NavLinkstyle to='/' > <BsHouseDoorFill/></NavLinkstyle>
+        <NavLinkstyle to='/login' >Entrar</NavLinkstyle>
+        <NavLinkstyle to='/register'>Cadastrar</NavLinkstyle>
+      </NavLinksContainer>
+      </NavbarContainer>
     </Router>
   )
 }
