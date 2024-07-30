@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import './App.css'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
-import Home from './pages/Home/Home.jsx'
+import Home from './pages/Home/style.jsx'
 import Login from './pages/Auth/Login.jsx'
 import Register from './pages/Auth/Register.jsx'
+import { GlobalStyle } from './GlobalStyle/Global.js'
 
 function App() {
  
 
   return (
     <>
+      <GlobalStyle/>
       <div className='app'> 
         <BrowserRouter>
           <Routes path='/' element={<Home/>}/>

@@ -1,5 +1,7 @@
 import React from 'react'
-import HomeComponent from './style'
+
+
+
 function Home() {
   return (
     <div>

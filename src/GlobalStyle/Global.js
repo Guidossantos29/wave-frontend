@@ -1,4 +1,8 @@
-body{
+import {createGlobalStyle} from 'styled-components'
+
+
+export const GlobalStyle = createGlobalStyle`
+    body{
     font-family: 'Poppins', sans-serif;
     color: white;
     margin: 0;
@@ -6,3 +10,6 @@ body{
     box-sizing: border-box;
     background-color: black;
 }
+
+`
+

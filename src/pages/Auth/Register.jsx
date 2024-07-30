@@ -1,5 +1,5 @@
 import React from 'react'
-import AuthComponent from './Auth'
+import './style.js'
 
 function Register() {
   return (
