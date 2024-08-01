@@ -13,6 +13,7 @@ export const NavbarContainer = styled.nav`
 
 export const SearchForm = styled.form`
      display: flex;
+     flex-direction: row;
      align-items: center;
      gap: 10px;
 

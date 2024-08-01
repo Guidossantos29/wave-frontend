@@ -1,5 +1,4 @@
 import React from 'react'
-import './style'
 import { FooterContainer } from './style'
 
 function Footer() {
