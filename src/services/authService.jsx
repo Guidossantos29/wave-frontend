@@ -1,5 +1,4 @@
-import {api,requestConfig} from "../utils/config"
-
+import { resquestConfig,api } from "../utils/config"
 
 const register = async(data) => {
 
